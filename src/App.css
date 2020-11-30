@@ -6,6 +6,11 @@
   --blue: #ACE6EC;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html, body {
   font-family: 'Oswald', sans-serif;
 }
