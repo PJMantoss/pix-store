@@ -2,7 +2,7 @@
   --black: #150605;
   --red: #EA453C;
   --pink: #F47BCE;
-  --lightblue: #EFFBFE;
+  --light-blue: #EFFBFE;
   --blue: #ACE6EC;
 }
 
@@ -20,4 +20,5 @@ header {
   justify-content: space-between;
   align-items: center;
   background: var(--pink);
+  color: var(--light-blue);
 }
