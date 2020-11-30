@@ -21,4 +21,5 @@ header {
   align-items: center;
   background: var(--pink);
   color: var(--light-blue);
+  padding: 0 10px;
 }
