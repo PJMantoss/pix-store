@@ -5,3 +5,7 @@
   --lightblue: #EFFBFE;
   --blue: #ACE6EC;
 }
+
+html, body {
+  font-family: 'Oswald', sans-serif;
+}
