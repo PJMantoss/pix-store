@@ -4,7 +4,10 @@ import React from "react";
 function Header(){
     return(
         <div>
-            <header></header>
+            <header>
+                <Link to=""></Link>
+                <Link to=""></Link>
+            </header>
         </div>
     )
 }
