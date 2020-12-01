@@ -16,7 +16,7 @@ function App() {
         </Route>
 
         <Route path="/cart">
-          
+          <Cart />
         </Route>
       </Switch>
     </div>
