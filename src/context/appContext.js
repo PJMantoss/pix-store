@@ -5,7 +5,7 @@ const AppContext = createContext();
 function AppContextProvider(props){
     const [photos, setPhotos] = useState([]);
     return(
-        <AppContext.Provider value="">
+        <AppContext.Provider value={{photos}}>
             {props.children}
         </AppContext.Provider>
     )
