@@ -30,13 +30,13 @@ a {
 }
 
 a:visited {
-  color: ;
+  color: var(--light-blue);
 }
 
 a:hover {
-  color: ;
+  color: var(--light-blue);
 }
 
 a:active {
-  color: ;
+  color: var(--light-blue);
 }
