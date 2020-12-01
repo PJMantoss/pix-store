@@ -7,6 +7,10 @@ function AppContextProvider(props){
 
     const url = "";
 
+    useEffect(() => {
+        fetch().then().then().catch(err => console.error(err))
+    })
+
     return(
         <AppContext.Provider value={{photos}}>
             {props.children}
