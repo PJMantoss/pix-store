@@ -11,9 +11,13 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path=""></Route>
+        <Route exact path="/">
+          <Photos />
+        </Route>
 
-        <Route path=""></Route>
+        <Route path="/cart">
+          
+        </Route>
       </Switch>
     </div>
   );
