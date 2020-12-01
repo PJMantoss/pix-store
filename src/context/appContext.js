@@ -8,8 +8,11 @@ function AppContextProvider(props){
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
 
     useEffect(() => {
-        fetch().then().then().catch(err => console.error(err))
-    })
+        fetch(url)
+          .then(res => res.json())
+          .then(data => setPhotos(data))
+          .catch(err => console.error(err))
+    }, [])
 
     return(
         <AppContext.Provider value={{photos}}>
