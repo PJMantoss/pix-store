@@ -5,7 +5,7 @@ const AppContext = createContext();
 function AppContextProvider(){
     return(
         <Provider value="">
-            {}
+            {children}
         </Provider>
     )
 };
