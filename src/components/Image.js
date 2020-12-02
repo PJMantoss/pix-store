@@ -3,7 +3,7 @@ import React from "react";
 function Image(){
     return(
         <div>
-            <img src />
+            <img src={} className="image-grid" />
         </div>
     );
 }
