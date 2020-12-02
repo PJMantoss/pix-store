@@ -1,7 +1,11 @@
 import React from "react";
 
 function Image(){
-    return();
+    return(
+        <div>
+            <img src />
+        </div>
+    );
 }
 
 export default Image;
