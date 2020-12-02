@@ -1,8 +1,8 @@
 import React from "react";
 
-function Image(){
+function Image({className}){
     return(
-        <div>
+        <div className={``}>
             <img src={} className="image-grid" />
         </div>
     );
