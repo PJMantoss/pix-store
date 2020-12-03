@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Image from '../components/Image';
 import {AppContext} from '../context/appContext';
 import {getClass} from '../utils';
 
 function Photos(){
-    const [allPhotos] = useContext(AppContext);
+    const [photos] = useContext(AppContext);
 
     const photosData = allPhotos.map((photo, i) => (
         <Image src={photo.id} img={photo} className={getClass(i)} />
