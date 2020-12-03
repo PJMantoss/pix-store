@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from '../components/Image';
+import {AppContext} from '../context/appContext';
 
 function Photos(){
     return(
