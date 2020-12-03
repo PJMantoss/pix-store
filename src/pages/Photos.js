@@ -6,7 +6,7 @@ import {getClass} from '../utils';
 function Photos(){
     const [photos] = useContext(AppContext);
 
-    const photosData = allPhotos.map((photo, i) => (
+    const photosData = photos.map((photo, i) => (
         <Image src={photo.id} img={photo} className={getClass(i)} />
     ))
     return(
