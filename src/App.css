@@ -81,3 +81,12 @@ a:active {
   left: 5px;
   cursor: pointer;
 }
+
+.cart {
+  color: var(--blue);
+  font-size: 1.2rem;
+}
+
+.ri-heart-fill {
+  opacity: .7;
+}
