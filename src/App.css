@@ -85,7 +85,9 @@ a:active {
 .cart {
   color: var(--blue);
   font-size: 1.2rem;
-  
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 .ri-heart-fill {
