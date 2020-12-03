@@ -46,7 +46,8 @@ a:active {
   padding: 10px;
   grid-gap: 2px;
   grid-auto-rows: 100px;
-  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-flow: dense;
 }
 
 .image-grid {
@@ -57,4 +58,12 @@ a:active {
 
 .image-container {
   position: relative;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
 }
