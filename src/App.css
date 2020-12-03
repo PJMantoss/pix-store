@@ -97,4 +97,5 @@ a:active {
 
 .ri-delete-bin-fill, .ri-delete-bin-line {
   font-size: 1.3em;
+  cursor: pointer;
 }
