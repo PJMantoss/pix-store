@@ -14,7 +14,13 @@ function AppContextProvider(props){
           .catch(err => console.error(err))
     }, [])
 
-    const tooggleFavorite = id => {}
+    const tooggleFavorite = id => {
+        const updatedArr = photos.map(photo => {
+            if(photo.id === id){
+                return {}
+            }
+        })
+    }
 
     return(
         <AppContext.Provider value={{photos}}>
