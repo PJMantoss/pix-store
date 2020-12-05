@@ -1,5 +1,5 @@
 import React, {useState, useContext} from "react";
-import {AppContext} from '../context/appContext';
+import {AppContextProvider} from '../context/appContext';
 
 function Image({className, img}){
     //hover state
