@@ -5,7 +5,7 @@ function Image({className, img}){
     //hover state
     const [hovered, setHovered] = useState(false);
 
-    const {toggleFavorite} = useContext();
+    const {toggleFavorite} = useContext(appContext);
     
     //conditional variables
     const heartIcon = hovered && <i className="ri-heart-line favorite"></i>;
