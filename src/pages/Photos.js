@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Image from '../components/Image';
-import {AppContext} from '../context/appContext';
+import {AppContextProvider} from '../context/appContext';
 import {getClass} from '../utils';
 
 function Photos(){
