@@ -3,6 +3,8 @@ import React, {useState, useContext} from "react";
 function Image({className, img}){
     //hover state
     const [hovered, setHovered] = useState(false);
+
+    const {toggleFavorite} = useContext();
     
     //conditional variables
     const heartIcon = hovered && <i className="ri-heart-line favorite"></i>;
