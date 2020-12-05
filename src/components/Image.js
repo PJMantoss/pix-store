@@ -1,5 +1,5 @@
 import React, {useState, useContext} from "react";
-import {AppContextProvider} from '../context/appContext';
+import {AppContext} from '../context/appContext';
 
 function Image({className, img}){
     //hover state
@@ -8,7 +8,7 @@ function Image({className, img}){
     const {toggleFavorite} = useContext(AppContextProvider);
     
     //conditional variables
-    const heartIcon = hovered && <i onClick={() => toggleFavorite()} className="ri-heart-line favorite"></i>;
+    const heartIcon = hovered && <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>;
     const cartIcon = hovered && <i className="ri-add-circle-line cart"></i>;
 
     return(
