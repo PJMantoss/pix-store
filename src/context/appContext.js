@@ -17,7 +17,7 @@ function AppContextProvider(props){
     const tooggleFavorite = id => {
         const updatedArr = photos.map(photo => {
             if(photo.id === id){
-                return {...photos, isFavorite: !photo.isFavorite}
+                return {...photo, isFavorite: !photo.isFavorite}
             }
         })
     }
