@@ -21,6 +21,8 @@ function AppContextProvider(props){
             }
             return photo;
         })
+
+        setPhotos(updatedArr)
     }
 
     return(
