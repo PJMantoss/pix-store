@@ -14,6 +14,8 @@ function AppContextProvider(props){
           .catch(err => console.error(err))
     }, [])
 
+    const tooggleFavorite = id => {}
+
     return(
         <AppContext.Provider value={{photos}}>
             {props.children}
