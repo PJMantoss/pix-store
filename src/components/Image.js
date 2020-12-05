@@ -8,7 +8,7 @@ function Image({className, img}){
     const {toggleFavorite} = useContext(appContext);
     
     //conditional variables
-    const heartIcon = hovered && <i className="ri-heart-line favorite"></i>;
+    const heartIcon = hovered && <i onClick={} className="ri-heart-line favorite"></i>;
     const cartIcon = hovered && <i className="ri-add-circle-line cart"></i>;
 
     return(
