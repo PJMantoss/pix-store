@@ -4,6 +4,7 @@ const AppContext = createContext();
 
 function AppContextProvider(props){
     const [photos, setPhotos] = useState([]);
+    const [isFavorite, setIsFavorite] = useState(false);
 
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
 
