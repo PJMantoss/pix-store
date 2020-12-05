@@ -19,6 +19,7 @@ function AppContextProvider(props){
             if(photo.id === id){
                 return {...photo, isFavorite: !photo.isFavorite}
             }
+            return photo;
         })
     }
 
