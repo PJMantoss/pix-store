@@ -19,7 +19,7 @@ function Image({className, img}){
         }
     }
 
-    const cartIcon = hovered && <i className="ri-add-circle-line cart" onClick={() => toggleFavorite(img.id)}></i>;
+    const cartIcon = hovered && <i className="ri-add-circle-line cart" onClick={() => addToCart(img)}></i>;
 
     return(
         <div 
