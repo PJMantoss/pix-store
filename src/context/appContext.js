@@ -7,7 +7,7 @@ function AppContextProvider(props){
     const [cartItems, setCartItems] = useState([]);
 
     const addToCart = newItem => {
-        setCartItems(prevItems => [])
+        setCartItems(prevItems => [...prevItems, newItem])
     }
 
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
