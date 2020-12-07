@@ -6,6 +6,10 @@ function AppContextProvider(props){
     const [photos, setPhotos] = useState([]);
     const [cartItems, setCartItems] = useState([]);
 
+    const addToCart = newItem => {
+        
+    }
+
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
 
     useEffect(() => {
