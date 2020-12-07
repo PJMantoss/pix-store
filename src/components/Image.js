@@ -39,7 +39,7 @@ Image.propTypes = {
     img: PropTypes.shape({
         id: PropTypes.string.isRequired,
         url: PropTypes.string.isReqquired,
-        
+        isFavorite: PropTypes.bool
     })
 }
 
