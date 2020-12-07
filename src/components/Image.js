@@ -12,7 +12,7 @@ function Image({className, img}){
         if(hovered){
             return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>;
         }else if(img.isFavorite){
-            return 
+            return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>
         }
     }
 
