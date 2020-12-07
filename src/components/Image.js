@@ -27,7 +27,7 @@ function Image({className, img}){
             className={`${className} image-container`}
         >
             <img src={img.url} className="image-grid" />
-            {heartIcon}
+            {heartIcon()}
             {cartIcon}
         </div>
     );
