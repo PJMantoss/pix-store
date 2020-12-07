@@ -9,7 +9,9 @@ function Image({className, img}){
     
     //conditional variables
     const heartIcon = () => {
-        if(hovered){}else if(){}
+        if(hovered){
+            return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>;
+        }else if(){}
     }
 
     const cartIcon = hovered && <i className="ri-add-circle-line cart"></i>;
