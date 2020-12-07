@@ -36,6 +36,9 @@ function Image({className, img}){
 
 Image.propTypes = {
     className: PropTypes.string,
+    img: PropTypes.shape({
+        id: PropTypes.string.isRequired,
+    })
 }
 
 export default Image;
