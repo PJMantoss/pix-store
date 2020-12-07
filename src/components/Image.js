@@ -13,6 +13,8 @@ function Image({className, img}){
             return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>;
         }else if(img.isFavorite){
             return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>
+        } else {
+            return null;
         }
     }
 
