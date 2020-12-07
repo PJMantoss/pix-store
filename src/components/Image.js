@@ -6,7 +6,7 @@ function Image({className, img}){
     //hover state
     const [hovered, setHovered] = useState(false);
 
-    const {toggleFavorite} = useContext(AppContext);
+    const {toggleFavorite, addToCart} = useContext(AppContext);
     
     //conditional variables
     const heartIcon = () => {
@@ -19,7 +19,7 @@ function Image({className, img}){
         }
     }
 
-    const cartIcon = hovered && <i className="ri-add-circle-line cart"></i>;
+    const cartIcon = hovered && <i className="ri-add-circle-line cart" onClick={() => toggleFavorite(img.id)}></i>;
 
     return(
         <div 
