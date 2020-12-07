@@ -38,6 +38,8 @@ Image.propTypes = {
     className: PropTypes.string,
     img: PropTypes.shape({
         id: PropTypes.string.isRequired,
+        url: PropTypes.string.isReqquired,
+        
     })
 }
 
