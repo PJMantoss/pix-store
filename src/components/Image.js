@@ -11,7 +11,9 @@ function Image({className, img}){
     const heartIcon = () => {
         if(hovered){
             return <i onClick={() => toggleFavorite(img.id)} className="ri-heart-line favorite"></i>;
-        }else if(){}
+        }else if(img.isFavorite){
+            return 
+        }
     }
 
     const cartIcon = hovered && <i className="ri-add-circle-line cart"></i>;
