@@ -1,4 +1,5 @@
 import React, {useState, useContext} from "react";
+import PropTypes from 'prop-types';
 import {AppContext} from '../context/appContext';
 
 function Image({className, img}){
@@ -31,6 +32,10 @@ function Image({className, img}){
             {cartIcon}
         </div>
     );
+}
+
+Image.propTypes = {
+    className: PropTypes.string,
 }
 
 export default Image;
