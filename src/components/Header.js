@@ -6,7 +6,7 @@ import "../App.css"
 function Header(){
     const cartIcon = img => {
         if(img){
-            return 
+            return <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
         }else if(){}
     }
     return(
