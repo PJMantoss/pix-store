@@ -23,7 +23,7 @@ function Image({className, img}){
         const alreadyInCart = cartItems.some(item => item.id === img.id)
         if(hovered){
             return <i className="ri-add-circle-line cart" onClick={() => addToCart(img)}></i>
-        } else if(){
+        } else if(alreadyInCart){
             return <i className="ri-shopping-cart-fill cart" onClick={() => addToCart(img)}></i>
         } else {
             return null;
