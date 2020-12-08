@@ -7,7 +7,7 @@ function Header(){
     const cartIcon = img => {
         if(img){
             return <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
-        }else if(){}
+        }else if(!img){}
     }
     return(
         <div>
