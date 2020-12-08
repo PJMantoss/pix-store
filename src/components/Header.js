@@ -7,7 +7,7 @@ import "../App.css"
 function Header(){
     const {cartItems} = useContext(AppContext);
 
-    const cartClassName = cartItems.length > 0 ? <i className="ri-shopping-cart-fill"></i> : <i className="ri-shopping-cart-line"></i>
+    const cartClassName = cartItems.length > 0 ? "ri-shopping-cart-fill" : "ri-shopping-cart-line"
    
     return(
         <div>
