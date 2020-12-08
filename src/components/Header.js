@@ -16,7 +16,7 @@ function Header(){
             <header>
                 <Link to="/"><h2>Pix Store</h2></Link>
                 <Link to="/cart">
-                    {}
+                    {cartIcon()}
                 </Link>
             </header>
         </div>
