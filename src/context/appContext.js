@@ -12,7 +12,7 @@ function AppContextProvider(props){
 
     const removeFromCart = img => {
         setCartItems({
-            img: 0,
+            img: 0
         })
     }
 
