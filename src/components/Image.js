@@ -20,9 +20,10 @@ function Image({className, img}){
     }
 
     const cartIcon = () => {
+        
         if(hovered){
             return <i className="ri-add-circle-line cart" onClick={() => addToCart(img)}></i>
-        } else if(img.newItem){
+        } else if(){
             return <i className="ri-shopping-cart-fill cart" onClick={() => addToCart(img)}></i>
         } else {
             return null;
