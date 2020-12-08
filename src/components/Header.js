@@ -5,6 +5,7 @@ import "../App.css"
 
 
 function Header(){
+    const {cartItems} = useContext(AppContext)
     const cartIcon = img => {
         if(img){
             return <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
