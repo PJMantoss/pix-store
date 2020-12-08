@@ -5,14 +5,10 @@ import "../App.css"
 
 
 function Header(){
-    const {cartItems} = useContext(AppContext)
-    const cartIcon = img => {
-        if(img){
-            return <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
-        }else if(!img){
-            return <i className="ri-shopping-cart-fill ri-fw ri-2x"></i>
-        }
-    }
+    const {cartItems} = useContext(AppContext);
+
+    const cartClassName = cartItems.length > 0 ? <i className="ri-shopping-cart-fill ri-fw ri-2x"></i> :
+   
     return(
         <div>
             <header>
