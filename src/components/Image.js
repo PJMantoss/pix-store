@@ -38,7 +38,7 @@ function Image({className, img}){
         >
             <img src={img.url} className="image-grid" alt="picture-of-an-object" />
             {heartIcon()}
-            {cartIcon}
+            {cartIcon()}
         </div>
     );
 }
