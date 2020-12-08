@@ -14,7 +14,7 @@ function Header(){
             <header>
                 <Link to="/"><h2>Pix Store</h2></Link>
                 <Link to="/cart">
-                    <i className={`${} ri-fw ri-2x`}></i>
+                    <i className={`${cartClassName} ri-fw ri-2x`}></i>
                 </Link>
             </header>
         </div>
