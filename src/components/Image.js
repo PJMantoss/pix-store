@@ -24,6 +24,8 @@ function Image({className, img}){
             return <i className="ri-add-circle-line cart" onClick={() => addToCart(img)}></i>
         } else if(img.newItem){
             return <i className="ri-shopping-cart-fill cart" onClick={() => addToCart(img)}></i>
+        } else {
+            return null;
         }
     }
 
