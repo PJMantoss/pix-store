@@ -10,7 +10,7 @@ function AppContextProvider(props){
         setCartItems(prevItems => [...prevItems, newItem])
     }
 
-    const removeFromCart = img => {
+    const removeFromCart = id => {
         setCartItems({
             img: 0
         })
