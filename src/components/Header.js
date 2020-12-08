@@ -5,14 +5,16 @@ import "../App.css"
 
 function Header(){
     const cartIcon = img => {
-        if(img){}else if(){}
+        if(img){
+            return 
+        }else if(){}
     }
     return(
         <div>
             <header>
                 <Link to="/"><h2>Pix Store</h2></Link>
                 <Link to="/cart">
-                    <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
+                    {}
                 </Link>
             </header>
         </div>
