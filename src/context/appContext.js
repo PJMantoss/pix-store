@@ -10,7 +10,11 @@ function AppContextProvider(props){
         setCartItems(prevItems => [...prevItems, newItem])
     }
 
-    const removeFromCart = img => {}
+    const removeFromCart = img => {
+        setCartItems({
+            img: 0,
+        })
+    }
 
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
 
