@@ -4,6 +4,9 @@ import "../App.css"
 
 
 function Header(){
+    const cartIcon = img => {
+        if(img){}
+    }
     return(
         <div>
             <header>
