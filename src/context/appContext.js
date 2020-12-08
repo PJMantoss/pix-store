@@ -11,9 +11,7 @@ function AppContextProvider(props){
     }
 
     const removeFromCart = id => {
-        setCartItems({
-            img: 0
-        })
+        setCartItems(prevItems => prevItems.filter())
     }
 
     const url = "https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json";
