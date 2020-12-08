@@ -5,7 +5,7 @@ import "../App.css"
 
 function Header(){
     const cartIcon = img => {
-        if(img){}
+        if(img){}else if(){}
     }
     return(
         <div>
