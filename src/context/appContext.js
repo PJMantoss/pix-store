@@ -37,7 +37,7 @@ function AppContextProvider(props){
     }
 
     return(
-        <AppContext.Provider value={{photos, toggleFavorite, addToCart, cartItems}}>
+        <AppContext.Provider value={{photos, toggleFavorite, addToCart, cartItems, removeFromCart}}>
             {props.children}
         </AppContext.Provider>
     )
