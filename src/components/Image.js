@@ -20,7 +20,7 @@ function Image({className, img}){
     }
 
     const cartIcon = () => {
-        
+        const alreadyInCart = cartItems.some()
         if(hovered){
             return <i className="ri-add-circle-line cart" onClick={() => addToCart(img)}></i>
         } else if(){
