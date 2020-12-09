@@ -14,6 +14,9 @@ function Cart(){
             <h1>Checkout</h1>
             {cartItemElements}
             <p className="total-cost"></p>
+            <div className="order-button">
+                <button>Place Order</button>
+            </div>
         </main>
     )
 }
