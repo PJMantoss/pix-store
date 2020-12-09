@@ -8,7 +8,12 @@ function CartItem({item}){
     const binStyle = hovered ? "ri-delete-bin-line" : "ri-delete-bin-fill"
     return(
        <div className="cart-item">
-           <i className={binStyle} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} onClick={() => removeFromCart(item.id)}></i>
+           <i 
+               className={binStyle} 
+               onMouseEnter={() => setHovered(true)} 
+               onMouseLeave={() => setHovered(false)} 
+               onClick={() => removeFromCart(item.id)}
+            ></i>
            <img src={item.url} width="130px" />
            <p>$6.00</p>
        </div>
