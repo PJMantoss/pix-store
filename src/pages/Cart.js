@@ -13,6 +13,7 @@ function Cart(){
         <main className="cart-page">
             <h1>Checkout</h1>
             {cartItemElements}
+            <p className="total-cost"></p>
         </main>
     )
 }
