@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 
-function useHover(){}
+function useHover(){
+    const [hover, setHover] = useState(false);
+}
 
 export default useHover;
