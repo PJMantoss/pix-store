@@ -1,5 +1,6 @@
 import React, {useContext, useState} from "react";
 import {AppContext} from "../context/appContext";
+import PropTypes from "prop-types";
 
 function CartItem({item}){
     const {removeFromCart} = useContext(AppContext);
@@ -18,6 +19,10 @@ function CartItem({item}){
            <p>$6.00</p>
        </div>
     )
+}
+
+CardItem.propTypes = {
+    item: PropTypes.shape({})
 }
 
 export default CartItem;
