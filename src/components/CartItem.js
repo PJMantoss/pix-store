@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 function CartItem({item}){
     const {removeFromCart} = useContext(AppContext);
-    const [hovered, ourRef] = useHover()
+    const [hovered, ref] = useHover()
     // const [hovered, setHovered] = useState(false);
 
     const binStyle = hovered ? "ri-delete-bin-fill" : "ri-delete-bin-line"
@@ -15,7 +15,7 @@ function CartItem({item}){
                className={binStyle} 
             //    onMouseEnter={() => setHovered(true)} 
             //    onMouseLeave={() => setHovered(false)} 
-               ref={ourRef}
+               ref={ref}
                onClick={() => removeFromCart(item.id)}
             ></i>
            <img src={item.url} width="130px" alt="selected-pictures"/>

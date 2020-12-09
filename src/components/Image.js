@@ -1,6 +1,7 @@
 import React, {useState, useContext} from "react";
 import PropTypes from 'prop-types';
 import {AppContext} from '../context/appContext';
+import useHover from "../hooks/useHover";
 
 function Image({className, img}){
     //hover state

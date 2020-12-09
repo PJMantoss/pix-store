@@ -14,16 +14,16 @@ function useHover(){
     }
 
     useEffect(() => {
-        ourRef.current.addEventListener("mouseenter", enter);
-        ourRef.current.addEventListener("mouseleave", leave);
+        ref.current.addEventListener("mouseenter", enter);
+        ref.current.addEventListener("mouseleave", leave);
 
         return () => {
-            ourRef.current.removeEventListener("mouseenter", enter);
-            ourRef.current.removeEventListener("mouseleave", leave);
+            ref.current.removeEventListener("mouseenter", enter);
+            ref.current.removeEventListener("mouseleave", leave);
         }
     }, []);
 
-    return [ourRef, hovered];
+    return [ref, hovered];
 }
 
 export default useHover;
