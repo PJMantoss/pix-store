@@ -112,6 +112,6 @@ a:active {
 }
 
 .cart-item img {
-  margin-right: ;
-  margin-left: ;
+  margin-right: auto;
+  margin-left: 10px;
 }
