@@ -14,7 +14,7 @@ function CartItem({item}){
                onMouseLeave={() => setHovered(false)} 
                onClick={() => removeFromCart(item.id)}
             ></i>
-           <img src={item.url} width="130px" />
+           <img src={item.url} width="130px" alt="selected-pictures"/>
            <p>$6.00</p>
        </div>
     )
