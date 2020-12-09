@@ -3,7 +3,7 @@ import {AppContext} from "../context/appContext";
 import CartItem from "../components/CartItem";
 
 function Cart(){
-    const {cartItems} = useState(AppContext);
+    const {cartItems} = useContext(AppContext);
 
     const cartItemElements = cartItems.map(item => (
         <CartItem key={item.id} item={item} />
