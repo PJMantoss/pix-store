@@ -14,7 +14,9 @@ function Cart(){
         <CartItem key={item.id} item={item} />
     ))
 
-    const placeOrder = () => {}
+    const placeOrder = () => {
+        setBtnText("Ordering...")
+    }
 
     return(
         <main className="cart-page">
