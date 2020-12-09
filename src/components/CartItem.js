@@ -5,7 +5,7 @@ function CartItem({item}){
     const {removeFromCart} = useContext(AppContext);
     const [hovered, setHovered] = useState(false);
 
-    const binStyle = hovered ? 
+    const binStyle = hovered ? "ri-delete-bin-line" : "ri-delete-bin-fill"
     return(
        <div className="cart-item">
            <i className={} onClick={() => removeFromCart(item.id)}></i>
