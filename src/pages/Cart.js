@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
 import {AppContext} from "../context/appContext";
+import CartItem from "../components/CartItem";
 
 function Cart(){
     const {cartItems} = useState(AppContext);
