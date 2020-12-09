@@ -132,3 +132,7 @@ a:active {
   padding: 15px;
   transition: all .2s ease-in-out;
 }
+
+.order-button button:focus {
+  outline: none;
+}
