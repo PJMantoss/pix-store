@@ -103,3 +103,7 @@ a:active {
 .cart-page > h1 {
   text-align: center;
 }
+
+.cart-item {
+  display: flex;
+}
