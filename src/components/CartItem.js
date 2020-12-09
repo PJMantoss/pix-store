@@ -21,8 +21,10 @@ function CartItem({item}){
     )
 }
 
-CardItem.propTypes = {
-    item: PropTypes.shape({})
+CartItem.propTypes = {
+    item: PropTypes.shape({
+        url: PropTypes.string.isRequired
+    })
 }
 
 export default CartItem;
