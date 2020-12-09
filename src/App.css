@@ -125,3 +125,8 @@ a:active {
   display: flex;
   justify-content: center;
 }
+
+.order-button button {
+  border: var(--black);
+  cursor: pointer;
+}
