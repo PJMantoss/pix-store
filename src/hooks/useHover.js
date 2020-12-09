@@ -1,7 +1,7 @@
-import React, {useState} from "react"
+import {useState} from "react"
 
 function useHover(){
-    const [hover, setHover] = useState(false);
+    const [hovered, setHovered] = useState(false);
 }
 
 export default useHover;
