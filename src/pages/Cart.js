@@ -5,7 +5,7 @@ import CartItem from "../components/CartItem";
 function Cart(){
     const {cartItems} = useContext(AppContext);
 
-    const totalCost = 5.99 * cartItems.length;
+    const totalCost = 6 * cartItems.length;
 
     const totalCostDisplay = totalCost.toLocaleString("en-US", {style: "currency", currency: "USD"});
 
