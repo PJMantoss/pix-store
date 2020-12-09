@@ -34,6 +34,10 @@ function AppContextProvider(props){
         setPhotos(updatedArr)
     }
 
+    const emptyCart(){
+        setCartItems([]);
+    }
+
     return(
         <AppContext.Provider value={{photos, toggleFavorite, addToCart, cartItems, removeFromCart}}>
             {props.children}
