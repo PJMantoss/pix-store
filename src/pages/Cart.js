@@ -3,7 +3,8 @@ import {AppContext} from "../context/appContext";
 import CartItem from "../components/CartItem";
 
 function Cart(){
-    const {cartItems} = useContext(AppContext);
+    const [btnText, setBtnText] = useState()
+    const {cartItems, emptyCart} = useContext(AppContext);
 
     const totalCost = 6 * cartItems.length;
 
