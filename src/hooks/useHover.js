@@ -21,7 +21,9 @@ function useHover(){
             ourRef.current.removeEventListener("mouseenter", enter);
             ourRef.current.removeEventListener("mouseleave", leave);
         }
-    }, [])
+    }, []);
+
+    return [ourRef, hovered];
 }
 
 export default useHover;
