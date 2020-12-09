@@ -4,6 +4,8 @@ import {AppContext} from "../context/appContext";
 function Cart(){
     const {cartItems} = useState(AppContext);
 
+    const cartItemElements = cartItems.map()
+
     return(
         <main className="cart-page">
             <h1>Checkout</h1>
