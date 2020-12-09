@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import {AppContext} from "../context/appContext";
 
 function CartItem({item}){
+    const {removeFromCart} = useContext(AppContext);
     return(
        <div className="cart-item">
            <i className="ri-delete-bin-line"></i>
