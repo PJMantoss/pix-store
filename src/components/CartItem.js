@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext} from "react";
 import {AppContext} from "../context/appContext";
 import useHover from "../hooks/useHover";
 import PropTypes from "prop-types";
@@ -13,8 +13,9 @@ function CartItem({item}){
        <div className="cart-item">
            <i 
                className={binStyle} 
-               onMouseEnter={() => setHovered(true)} 
-               onMouseLeave={() => setHovered(false)} 
+            //    onMouseEnter={() => setHovered(true)} 
+            //    onMouseLeave={() => setHovered(false)} 
+               ref={ourRef}
                onClick={() => removeFromCart(item.id)}
             ></i>
            <img src={item.url} width="130px" alt="selected-pictures"/>
