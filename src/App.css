@@ -127,6 +127,7 @@ a:active {
 }
 
 .order-button button {
-  border: var(--black);
+  border-color: var(--black);
   cursor: pointer;
+  transition: all .2s ease-in-out;
 }
