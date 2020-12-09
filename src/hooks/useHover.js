@@ -6,7 +6,10 @@ function useHover(){
     const enter = () => {
         setHovered(true);
     }
-    
+
+    const leave = () => {
+        setHovered(false);
+    }
 }
 
 export default useHover;
