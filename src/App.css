@@ -115,3 +115,7 @@ a:active {
   margin-right: auto;
   margin-left: 10px;
 }
+
+.cart-page .total-cost {
+  text-align: center;
+}
