@@ -5,3 +5,5 @@ function CartItem({item}){
        <h2>{item.id}</h2>
     )
 }
+
+export default CartItem;
