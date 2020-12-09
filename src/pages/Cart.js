@@ -14,6 +14,8 @@ function Cart(){
         <CartItem key={item.id} item={item} />
     ))
 
+    const placeOrder = () => {}
+
     return(
         <main className="cart-page">
             <h1>Checkout</h1>
