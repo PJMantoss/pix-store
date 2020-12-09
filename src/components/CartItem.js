@@ -2,7 +2,11 @@ import React from "react";
 
 function CartItem({item}){
     return(
-       <h2>{item.id}</h2>
+       <div className="cart-item">
+           <i></i>
+           <img />
+           <p></p>
+       </div>
     )
 }
 
