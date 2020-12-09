@@ -136,3 +136,7 @@ a:active {
 .order-button button:focus {
   outline: none;
 }
+
+.order-button button:disabled {
+  border-color: lightgray;
+}
