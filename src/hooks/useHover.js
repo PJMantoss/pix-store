@@ -12,6 +12,10 @@ function useHover(){
     const leave = () => {
         setHovered(false);
     }
+
+    useEffect(() => {
+        ourRef.current.addEventListener("mouseenter", enter)
+    }, [])
 }
 
 export default useHover;
