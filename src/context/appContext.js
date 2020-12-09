@@ -34,12 +34,12 @@ function AppContextProvider(props){
         setPhotos(updatedArr)
     }
 
-    const emptyCart(){
+    const emptyCart = () => {
         setCartItems([]);
     }
 
     return(
-        <AppContext.Provider value={{photos, toggleFavorite, addToCart, cartItems, removeFromCart}}>
+        <AppContext.Provider value={{photos, toggleFavorite, addToCart, cartItems, removeFromCart, emptyCart}}>
             {props.children}
         </AppContext.Provider>
     )
