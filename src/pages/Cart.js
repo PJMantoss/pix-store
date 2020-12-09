@@ -15,7 +15,10 @@ function Cart(){
     ))
 
     const placeOrder = () => {
-        setBtnText("Ordering...")
+        setBtnText("Ordering...");
+        setTimeout(() => {
+            console.log()
+        }, 3000);
     }
 
     return(
