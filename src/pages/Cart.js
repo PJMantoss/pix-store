@@ -7,6 +7,8 @@ function Cart(){
 
     const totalCost = 5.99 * cartItems.length;
 
+    const totalCostDisplay = totalCost.
+
     const cartItemElements = cartItems.map(item => (
         <CartItem key={item.id} item={item} />
     ))
