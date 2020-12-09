@@ -4,7 +4,9 @@ import {AppContext} from "../context/appContext";
 function Cart(){
     const {cartItems} = useState(AppContext);
 
-    const cartItemElements = cartItems.map()
+    const cartItemElements = cartItems.map(item => (
+        <CartItem key={item.id} item={item} />
+    ))
 
     return(
         <main className="cart-page">
