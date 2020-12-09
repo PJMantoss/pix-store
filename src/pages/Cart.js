@@ -29,7 +29,7 @@ function Cart(){
             {cartItemElements}
             <p className="total-cost">Total: {totalCostDisplay}</p>
             <div className="order-button">
-                <button onClick={() => }>{btnText}</button>
+                <button onClick={() => placeOrder()}>{btnText}</button>
             </div>
         </main>
     )
