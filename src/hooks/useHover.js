@@ -1,7 +1,9 @@
-import {useState} from "react"
+import {useState, useRef, useEffect} from "react"
 
 function useHover(){
     const [hovered, setHovered] = useState(false);
+
+    const ref = useRef(null);
 
     const enter = () => {
         setHovered(true);
