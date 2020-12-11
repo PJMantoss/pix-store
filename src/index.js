@@ -3,17 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter, BrowserRouter as Router} from "react-router-dom";
+import {HashRouter as Router} from "react-router-dom";
 import {AppContextProvider} from './context/appContext';
 
 ReactDOM.render(
-  <HashRouter>
-    <AppContextProvider>
-      <Router>
-        <App />
-      </Router>
-    </AppContextProvider>
-  </HashRouter>,
+  <AppContextProvider>
+    <Router>
+      <App />
+    </Router>
+  </AppContextProvider>,
   document.getElementById('root')
 );
 
