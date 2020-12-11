@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router} from "react-router-dom";
+import {HashRouter, BrowserRouter as Router} from "react-router-dom";
 import {AppContextProvider} from './context/appContext';
 
 ReactDOM.render(
-  <AppContextProvider>
-    <Router>
-      <App />
-    </Router>
-  </AppContextProvider>,
+  <HashRouter>
+    <AppContextProvider>
+      <Router>
+        <App />
+      </Router>
+    </AppContextProvider>
+  </HashRouter>,
   document.getElementById('root')
 );
 
