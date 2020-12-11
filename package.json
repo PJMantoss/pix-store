@@ -1,5 +1,6 @@
 {
   "name": "pix-store",
+  "homepage": "https://pjmantoss.github.io/pix-store/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
