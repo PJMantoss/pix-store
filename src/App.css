@@ -149,3 +149,9 @@ a:active {
   align-items: center;
   margin-top: 50px;
 }
+
+#love > span {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+ 
+}
