@@ -163,3 +163,8 @@ a:active {
   width: 20px;
   padding: 10px;
 }
+
+#love > span > a {
+  text-decoration: none;
+  color: rgb(4, 80, 4);
+}
