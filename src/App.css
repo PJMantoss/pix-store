@@ -145,5 +145,6 @@ a:active {
 
 #love {
   display: flex;
+  justify-content: center;
   
 }
