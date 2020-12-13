@@ -140,3 +140,10 @@ a:active {
 .order-button button:disabled {
   border-color: lightgray;
 }
+
+/* Footer */
+
+#love {
+  display: flex;
+  
+}
