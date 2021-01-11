@@ -1,4 +1,6 @@
-Pix Store is a mini e-commerce app built with React functional components, Context API and Hooks.
+Pix Store is a mock e-commerce site built with React functional components, Context API and Hooks.
+
+
 
 Date: December 2020
 
