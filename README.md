@@ -2,7 +2,7 @@ Pix Store is a mock e-commerce site built with React. The idea is for users to v
 
 The reason for this project is to test my understanding of React Router, React Hooks, Custom Hooks, Context and PropTypes. The project was styled with CSS grid.
 
-After creating the basic structure (components and pages) of the site, I set up React Router which connects the links in the header to all the relevant pages and components (Cart and Photos). Then I set up Context for the app in a separate file.
+After creating the basic structure (components and pages) of the site, I set up React Router which connects the links in the header to all the relevant pages and components (Cart and Photos). Then I set up Context for the app in a separate file. In the context file I created a custom component that renders the provider of the context created. Then I exported provider component so it can be eventually passed to a useContext hook. 
 
 Date: December 2020
 
